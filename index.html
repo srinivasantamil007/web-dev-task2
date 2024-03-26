@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="script.js"></script>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <nav>
+            <a href="#"> <img class="Logo" src="logo.png"></a>
+            <div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#spec">Spec</a></li>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="content">
+                <div class="textbox">
+                    <h2> Punch </h2>
+                   <p>Presenting Tata PUNCH, the no-compromise SUV. The epitome of class that offers a blend of sporty dynamics and tough utility </p> 
+                   <a href="#">Book Now</a>
+                </div> 
+                <div class="modalimg">
+                <img class="modal" src="modal.png">
+                </div>
+                 <ul class="modalcolor">
+                    <li><img src="modal.png" onclick="imgSlider('modal.png');changeCircleColor('#7491A9')"></li>
+                    <li><img src="redcolor.png" onclick="imgSlider('redcolor.png');changeCircleColor('#C32228')"></li>
+                    <li><img src="bluecolor.png" onclick="imgSlider('bluecolor.png');changeCircleColor('#1864B3')"></li>
+                    <li><img src="greycolor.png" onclick="imgSlider('greycolor.png');changeCircleColor('#D7D2CE')"></li>
+                </ul>
+            </div>
+    </section>
+             <div class="spec-container">
+                <div class="spec-1"><h2>90 degree opening doors</h2>
+                    <img  src="door.webp">
+                </div>
+                <div class="spec-2">
+                    <img  src="headlamp.webp">
+                    <h2>Projector Headlamps & LED DRLs</h2>
+                    <p>Project your style through your drive as you light up the roads with bright and brilliant lights.</p>
+                </div>
+                <div class="spec-3">
+                    <img  src="dashboard.webp">
+                    <h2>Eye Catching Dashboard</h2>
+                    <p>That looks premium and feels stylish.</p>
+                </div>
+
+             </div>
+</body>
+</html>
